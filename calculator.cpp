@@ -2,8 +2,21 @@
 #include <math.h>
 using namespace std;
 
-int captureNum1();
-int captureNum2();
+int captureNum1()
+{
+    int num;
+    cout << "Enter a number: ";
+    cin >> num;
+    return num;
+};
+
+int captureNum2()
+{
+    int num;
+    cout << "Enter second number: ";
+    cin >> num;
+    return num;
+};
 
 int main()
 {
@@ -67,19 +80,3 @@ int main()
     }
     return 0;
 }
-
-int captureNum1()
-{
-    int num;
-    cout << "Enter a number: ";
-    cin >> num;
-    return num;
-};
-
-int captureNum2()
-{
-    int num;
-    cout << "Enter second number: ";
-    cin >> num;
-    return num;
-};
